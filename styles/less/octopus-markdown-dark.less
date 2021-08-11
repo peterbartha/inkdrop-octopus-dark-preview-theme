@@ -1,0 +1,116 @@
+@import "./colors";
+
+body[class*="dark-ui"] {
+  .mde-preview {
+    color: @oct-text;
+    background-color: @oct-background;
+  }
+
+  .mde-preview {
+    a {
+      background-color: transparent;
+    }
+
+    img {
+      border: 0;
+    }
+
+    input {
+      color: inherit;
+    }
+
+    a {
+      color: @oct-peach;
+    }
+
+    strong, em {
+      color: @oct-text;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: @oct-primary;
+    }
+
+    h1,
+    h2 {
+      border-bottom-color: @oct-light-turquoise-2;
+    }
+
+    hr {
+      background-color: @oct-light-grey-1;
+    }
+
+    blockquote {
+      color: @oct-blue;
+      background: @oct-darker;
+      border-left: 4px solid @oct-dark-blue-1;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    table th {
+      background-color: @oct-darker;
+    }
+
+    table th,
+    table td {
+      border: 1px solid @oct-border-1;
+    }
+
+    table tr {
+      background-color: transparent;
+      border-top: 1px solid @oct-border-1;
+    }
+
+    table tr:nth-child(2n) {
+      background-color: @oct-secondary;
+    }
+
+    img {
+      background-color: transparent;
+    }
+
+    .highlight pre,
+    pre {
+      background: @oct-darker;
+    }
+
+    .cm-header {color: @oct-primary;}
+    .cm-quote {color: @oct-blue; font-style: italic;}
+    .cm-negative {color: @oct-error;}
+    .cm-positive {color: @oct-primary-hover;}
+    .cm-header, .cm-strong {font-weight: bold;}
+    .cm-em {color: @oct-purple; font-style: italic;}
+    .cm-link {text-decoration: underline;}
+    .cm-strikethrough {text-decoration: line-through @oct-peach;}
+
+    .cm-keyword {color: @oct-purple; font-weight: normal;}
+    .cm-atom {color: @oct-purple;}
+    .cm-number {color: @oct-primary;}
+    .cm-def {color: @oct-blue;}
+    .cm-property {color: @oct-peach; background: @oct-darker;}
+    .cm-operator {color: @oct-green;}
+    .cm-variable,
+    .cm-punctuation {color: @oct-primary;}
+    .cm-variable-2 {color: @oct-text;}
+    .cm-variable-3, .cm-type {color: @oct-purple;}
+    .cm-comment {color: @oct-light-grey-1; font-style: italic;}
+    .cm-string {color: @oct-peach;}
+    .cm-string-2 {color: @oct-peach;}
+    .cm-meta {color: @oct-green;}
+    .cm-qualifier {color: @oct-primary;}
+    .cm-builtin {color: @oct-purple;}
+    .cm-bracket {color: @oct-turquoise;}
+    .cm-tag {color: @oct-primary;}
+    .cm-attribute {color: @oct-primary;}
+    .cm-hr {color: @oct-peach;}
+    .cm-link {color: @oct-green;}
+
+    .cm-error {color: @oct-error;}
+  }
+}
