@@ -23,7 +23,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peterbartha/inkdrop-octopus-dark-preview-theme"
+    "url": "https://github.com/peterbartha/inkdrop-octopus-dark-preview-theme"
   },
   "engines": {
     "inkdrop": "^5.x"
